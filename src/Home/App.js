@@ -33,7 +33,7 @@ const App = () => {
             });
 
         setOrders([...orders, new_order])
-        history.push('/orders')
+        history.push('/pedidos')
 
     }
 
