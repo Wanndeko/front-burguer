@@ -51,7 +51,7 @@ const App = () => {
                 <Input_label>Nome do cliente</Input_label>
                 <Input ref={input_name} placeholder='ex: Percy Jackson' />
 
-                <Button onclick={add_new_order}>Novo pedido</Button>
+                <Button onClick={add_new_order}>Novo pedido</Button>
 
             </Container_itens>
 

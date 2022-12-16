@@ -14,12 +14,16 @@ export const Requests = styled.li`
 width: 342px;
 height: 101px;
 display: flex;
+flex-direction: row;
+justify-content: space-around;
 background: rgba(255, 255, 255, 0.25);
 border-radius: 14px;
-p{
-font-weight: 300;
-font-size: 18px;
-line-height: 21px;
+margin-bottom:18px;
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
 }
 
 button{
@@ -28,4 +32,19 @@ button{
     cursor: pointer;
 }
 `
+
+export const P_order =styled.p`
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 8px;
+`
+
+export const P_name = styled.p`
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+`
+
 
