@@ -44,7 +44,6 @@ const App = () => {
             <H1>Faça seu pedido!</H1>
             <Container_itens Container_itens >
 
-
                 <Input_label>Pedido</Input_label>
                 <Input ref={input_order} placeholder='ex: 1 Coca-cola, 1 x-salada' />
 

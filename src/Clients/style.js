@@ -8,14 +8,19 @@ display: flex;
 align-items: center;
 flex-direction: column;
 gap:25px;
+ 
+> img{
+    height: 286px;
+} 
 `
 
 export const Requests = styled.li`
 width: 342px;
 height: 101px;
+padding: 16px;
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-between;
 background: rgba(255, 255, 255, 0.25);
 border-radius: 14px;
 margin-bottom:18px;

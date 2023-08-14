@@ -7,13 +7,12 @@ min-height: 100vh;
 display: flex;
 align-items: center;
 flex-direction: column;
-gap:25px;
+gap:16px;
 `
 
 export const Container_itens = styled.div`
 display: flex;
-flex-direction: column;
-margin-top: 46px;
+flex-direction: column;    
 `
 
 export const H1 = styled.h1`
@@ -28,14 +27,14 @@ font-weight: 700;
 font-size: 18px;
 line-height: 22px;
 letter-spacing: -0.408px;
-margin-top: 42px;
-margin-left: 15px;
+margin-top: 28px;
+margin-left: 12px;
 
 `
 
 export const Input= styled.input`
 width: 342px;
-height: 58px;
+height: 48px;
 
 background: rgba(255, 255, 255, 0.25);
 border-radius: 14px;
@@ -43,13 +42,13 @@ border: none;
 outline: none;
 
 font-weight: 300;
-font-size: 18px;
+font-size: 16px;
 line-height: 21px;
 padding-left:15px ;
 `
 
 export const Image = styled.img`
-height: 340px;
+height: 286px;
 `
 
 
