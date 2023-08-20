@@ -11,7 +11,7 @@
 </ul>
 
 <h2>Descrição📃</h2>
-<p>Esse projeto é a interface de usuário utilizada para cadastro de pedidos de uma hamburgueria, ela recebe o nome do cliente e o pedido.</p>
+<p>Esse projeto é a interface de usuário, da <a href=https://github.com/Wanndeko/back-end-hamburguer/tree/master>Api-code-burguer</a>, utilizada para cadastro de pedidos de uma hamburgueria, ela recebe o nome do cliente e o pedido.</p>
 
 <h2>Utilização🛠️</h2>
 <p>Na página inicial há dois campos de entrada de dados, um para cada informação, sendo eles o campo de pedido e outro de nome do cliente, a confirmação do pedido é dada através do botão "novo pedido". A informação dos pedidos está em uma segunda página que por sua vez mantém os dados até que sejam excluídos, para excluir os pedidos basta apenas clicar no ícone de lixeira que se encontra ao lado direito da caixa de cada pedido, nessa mesma página possui um botão de "voltar" que permite o usuário retornar a página anterior e assim cadastrar um novo pedido.</p>
