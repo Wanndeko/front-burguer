@@ -8,6 +8,7 @@
 <li><a href=https://pt-br.react.dev/>React.js</a></li>
 <li><a href=https://styled-components.com/>Styled-Components</a></li>
 <li><a href=https://reactrouter.com/en/main/start/tutorial#setup>React-Router-Dom</a></li>
+<li><a href=https://axios-http.com/docs/intro>axios</a></li>
 </ul>
 
 <h2>Descrição📃</h2>
