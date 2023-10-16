@@ -26,7 +26,7 @@ const App = () => {
 
     async function add_new_order() {
 
-        const { data: new_order } = await axios.post('http://localhost:3002/orders',
+        const { data: new_order } = await axios.post('https://back-end-hamburguer-mpdg.vercel.app/orders',
             {
                 order: input_order.current.value,
                 name: input_name.current.value,
