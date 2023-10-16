@@ -23,7 +23,7 @@ const Client_sg = () => {
 
     useEffect(() => {
         async function fetch_order() {
-            const { data: response_order } = await axios.get('http://localhost:3002/orders');
+            const { data: response_order } = await axios.get('https://back-end-hamburguer-mpdg.vercel.app/orders');
             setOrders(response_order)
 
         }
@@ -34,7 +34,7 @@ const Client_sg = () => {
 
     async function dele_order(order_id) {
 
-        await axios.delete(`http://localhost:3002/orders/${order_id}`)
+        await axios.delete(`https://back-end-hamburguer-mpdg.vercel.app/orders/${order_id}`)
 
         const new_order = orders.filter(order => order.id !== order_id)
         setOrders(new_order);
